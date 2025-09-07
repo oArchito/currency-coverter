@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    background-color:#2F5233 ;
+    color: #B1D8B7;
+    text-align: center;
+    height: 5rem;
+    text-shadow: 5px 5px 5px #76B947;
+}
+#scissors{
+    background-color: white;
+}
+#scissors:hover{
+    cursor: pointer;
+ text-shadow: 10px 10px 10px#76B947;
+    background-color:#B1D8B7 ;
+}
+body{
+
+    background-color: #2F5233;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full screen height */
+    gap: 2rem; /* Space between heading and game */
+}
+
+
+.choice{
+    height: 165px;
+    width: 165px;
+    text-shadow: 10px 10px 10px #B1D8B7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.choice:hover{
+    cursor: pointer;
+ text-shadow: 10px 10px 10px#76B947;
+    background-color:#B1D8B7 ;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.choices{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 600px;
+    justify-content: center;
+    gap: 3rem ;
+    text-align: center;
+}
+.msg-container{
+    background-color: #B1D8B7;
+    padding: 10px;
+    border-radius: 25px;
+}
+.socre-board{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2rem;
+margin-top: 5px;
+gap:5rem ;
+}
+
+.msg-container:hover{
+      cursor: pointer;
+ box-shadow: 10px 10px 10px#76B947;
+    background-color:#B1D8B7 ;
+    border: 2px solid #2F5233;
+    border-radius: 25px;
+    
+}
+#Result{
+    cursor: pointer;
+    background-color: #76B947;
+    padding: 20px;
+    border-radius: 25px;
+
+}

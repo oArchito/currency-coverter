@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #c3e0e5;
+    text-align: center;
+}
+.container{
+    height: 70vh; /* yrr page ka 70%*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+
+}
+.box{
+    height: 18vmin;
+    width:  18vmin;
+    background-color:#5885af ;
+    border: 2px solid #274472;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    font-size: 8vmin;
+    color: #274472;
+    text-shadow: 2px 2px 2px rgba(82, 161, 226, 0.5);
+}
+#rst{
+    padding: 1rem ;
+    margin-right: 10px;
+    font-size: 1.25rem;
+    background-color:#5885af ;
+    border: 2px solid #274472;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    color: #274472;
+
+}
+
+
+#turn{
+    margin-top: 15px;
+    color: #274472;
+
+}
+
+  .win {
+    background-color: #c3e0e5 ;
+    animation: glow 0.5s infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      box-shadow: 0 0 10px 2px #C3E0E5;
+    }
+    to {
+      box-shadow: 0 0 20px 5px #274472;
+    }
+  }
+  #scoreboard {
+  background-color: #5885af; 
+  color: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px #41729f;
+  font-family: Arial;
+  font-size: 1.1rem;
+  margin-top: 10px;
+}
